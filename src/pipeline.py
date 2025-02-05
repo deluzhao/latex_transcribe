@@ -7,7 +7,6 @@ from src.registry import MODEL_REGISTRY
 # for registry purposes
 from src.tasks import formula_detection, formula_recognition, layout_detection, omniparser, table_recognition
 
-
 class Pipeline:
     def __init__(self, config):
         self.models = {}
