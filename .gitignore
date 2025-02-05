@@ -1,3 +1,9 @@
+# Custom
+models/Layout/*
+models/MFD/*
+models/MFR/*
+models/TabRec/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
