@@ -27,7 +27,7 @@ models:
     flash_atten: True
   base_recognition:
     model_name: omniparser
-    model_path: models/OmniParser/icon_detect/best.pt
+    model_path: models/OP/icon_detect/best.pt
     box_threshold: 0.05
     draw_bbox_config:
       text_scale: 0.8

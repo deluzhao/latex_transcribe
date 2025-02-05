@@ -42,17 +42,3 @@ class Omniparser(object):
             'vis': dino_image,
             'results': return_list
         }
-    
-# parser = Omniparser(config)
-# image_path = '../PDF-Extract-Kit/outputs/formula_detection/blackened/5.png'
-
-# #  time the parser
-# import time
-# s = time.time()
-# image, parsed_content_list = parser.parse(image_path)
-
-# print(parsed_content_list)
-
-
-# device = config['device']
-# print(f'Time taken for Omniparser on {device}:', time.time() - s)
